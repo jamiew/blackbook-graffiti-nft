@@ -2,6 +2,7 @@
   "name": "blackbook-graffiti-nft",
   "version": "1.0.0",
   "description": "",
+  "repository": "https://github.com/jamiew/blackbook-graffiti-nft/",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
