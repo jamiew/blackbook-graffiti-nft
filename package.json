@@ -1,0 +1,27 @@
+{
+  "name": "blackbook-graffiti-nft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.4.0",
+    "solc": "^0.5.7"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "prettier-plugin-solidity": "^1.0.0-alpha.32",
+    "solidity-coverage": "^0.6.7"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "coverage": "solidity-coverage",
+    "prettier": "prettier --write '**/*.js' '**/*.sol'",
+    "qa": "npm run prettier && truffle test",
+    "clean": "rm -rf build coverage coverage.json coverageEnv scTopics"
+  },
+  "author": "@jamiew",
+  "license": "MIT"
+}
