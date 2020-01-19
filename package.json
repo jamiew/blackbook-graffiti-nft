@@ -1,16 +1,15 @@
 {
   "name": "blackbook-graffiti-nft",
   "version": "0.0.1",
-  "repository": "https://github.com/jamiew/blackbook-graffiti-nft",
-  "description": "",
   "repository": "https://github.com/jamiew/blackbook-graffiti-nft/",
+  "description": "",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^2.4.0",
-    "solc": "^0.6.1"
+    "solc": "^0.5.7"
   },
   "devDependencies": {
     "prettier": "^1.19.1",
