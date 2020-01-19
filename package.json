@@ -22,6 +22,9 @@
     "qa": "npm run prettier && truffle test",
     "clean": "rm -rf build coverage coverage.json coverageEnv scTopics"
   },
+  "engines": {
+    "node": "~8.11"
+  },
   "author": "@jamiew",
   "license": "MIT"
 }
