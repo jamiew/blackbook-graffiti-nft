@@ -3,5 +3,6 @@ build
 coverage
 coverageEnv
 coverage.json
+flatten/
 scTopics
 
