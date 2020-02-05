@@ -1,0 +1,51 @@
+
+
+name
+
+string
+
+Name to display for the token
+
+"Red Robot #14"
+
+image_url
+
+string
+
+URL for an image to use to represent the token
+
+"https://www.robotgame.com/images/14.png"
+
+home_url
+
+string
+
+URL of the token on your website, will be linked to on the asset's page
+
+"https://www.robotgame.com/robots/14.html"
+
+description
+
+string
+
+Longer description to use for the token
+
+"This is the amazing Robot #14, please buy me!"
+
+tags
+
+Array<String>
+
+List of tags for the asset
+
+["red","rare","fire"]
+
+properties
+
+Array<Object>
+
+Properties to display with the asset. Should be in this format:
+
+[{"key":string, "value":<string or number>, "type": <"string","integer","number">}, ...]
+
+[{"key": "generation", "value": 4, type: "integer"}, {"key": "cooldown", "value": "slow", type: "string"}]
