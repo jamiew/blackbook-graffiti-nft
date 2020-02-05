@@ -114,4 +114,10 @@ contract("BlackbookToken", accounts => {
       })
       .then(cpt => assert.equal(cpt, 1));
   });
+
+  it("...should return the right URL for tokenURI()", () => {
+    return instance
+      .safeMint(admin, user, details0, {from: admin})
+      .then(() => instance.tokenURI())
+      .then(cpt => assert.equal(cpt, "https://000book.com"));  });
 });
