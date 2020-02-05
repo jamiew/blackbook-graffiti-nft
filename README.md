@@ -42,11 +42,8 @@ In another
 # Compile the contracts
 truffle compile
 
-#Test the contracts
+# Test the contracts
 truffle test
 ```
 
 Have fun
-
-
-
