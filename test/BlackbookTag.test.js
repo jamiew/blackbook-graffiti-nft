@@ -76,7 +76,7 @@ contract("BlackbookToken", accounts => {
       .then(cpt => assert.equal(cpt, 2));
   });
 
-  it("...should check if user is the onwer of the token 1", () => {
+  it("...should check if user is the owner of the token 1", () => {
     return instance.ownerOf(1).then(owner => assert.equal(owner, user));
   });
 
@@ -114,4 +114,8 @@ contract("BlackbookToken", accounts => {
       })
       .then(cpt => assert.equal(cpt, 1));
   });
+
+  it("...should return the right URL for tokenURI()", () => {
+    return instance.tokenURI(1)
+      .then(cpt => assert.equal(cpt, "https://000000book.com/tag/1/erc721.json"));  });
 });

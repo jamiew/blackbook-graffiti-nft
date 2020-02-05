@@ -1,7 +1,7 @@
-node_modules
-build
-coverage
-coverageEnv
+.DS_Store
+build/
+coverage/
 coverage.json
-scTopics
+flatten/
+node_modules/
 
