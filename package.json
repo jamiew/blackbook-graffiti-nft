@@ -8,8 +8,10 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^2.4.0",
+    "ganache-cli": "^6.12.1",
     "scrypt": "^6.0.3",
-    "solc": "^0.5.7"
+    "solc": "^0.5.7",
+    "truffle": "^5.1.59"
   },
   "devDependencies": {
     "prettier": "^1.18.2",
@@ -25,7 +27,7 @@
     "flatten": "truffle run flatten contracts/* && cat flatten/Flattened.sol | pbcopy && echo 'Copied to clipboard'"
   },
   "engines": {
-    "node": "~8.11"
+    "node": "~14"
   },
   "author": "@jamiew",
   "license": "MIT"
