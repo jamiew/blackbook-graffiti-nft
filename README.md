@@ -30,7 +30,7 @@ npm install
 In one terminal, run `ganache-cli` (fka `testrpc`) to simulate a blockchain:
 
 ```
-npx ganache-cli
+npx ganache-cli --deterministic
 ```
 
 In another:
