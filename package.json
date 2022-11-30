@@ -7,7 +7,7 @@
     "test": "test"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^2.4.0",
+    "@openzeppelin/contracts": "^4.7.3",
     "scrypt": "^6.0.3",
     "solc": "^0.5.7"
   },
